@@ -41,7 +41,7 @@ class foolink {
 			if ( isset( $url[ 'query' ] )  ) {
 				parse_str( $url['query'] );
 				if ( isset( $foogallery ) ) {
-					$foo  = FooGallery::get_by_slug( $foogallery );
+					$foo  = \FooGallery::get_by_slug( $foogallery );
 					$usages = $foo->find_usages();
 					if ( is_array( $usages ) && isset( $usages[0] ) ) {
 						return esc_url( get_permalink( $usages[0]->ID ) );
