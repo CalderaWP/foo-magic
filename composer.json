@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "calderawp\\filter\\foo": "src"
+            "calderawp\\filter\\foo\\": "src"
         }
     }
 }

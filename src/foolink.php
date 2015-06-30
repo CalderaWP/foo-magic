@@ -1,6 +1,6 @@
 <?php
 /**
- * When a Foo Gallery
+ * When a Foo Gallery permalink is passed, get the link to the page it is on.
  *
  * @package   foo-magic
  * @author    Josh Pollock <Josh@JoshPress.net>
