@@ -20,7 +20,7 @@ class foolink {
 	 * @since 1.0.0
 	 */
 	public function __construct() {
-		add_filter( 'caldera_magic_tag-post', 'permalink' );
+		add_filter( 'caldera_magic_tag-post', array( $this, 'permalink' ) );
 	}
 
 	/**
